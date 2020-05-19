@@ -1,9 +1,9 @@
 import json
 from src.util import ddb_util, py_util
 
-
+#which the data we call from dynamodb
 if __name__ == '__main__':
-    group_school = 'Studycat::School of Jake'
+    group_school = 'data of school '
     teacher_code = 'ZJBELR'
     class_code = 'QBDRPE'
 
@@ -64,6 +64,6 @@ if __name__ == '__main__':
         'user-accounts': [teacher_user_account] + student_user_accounts}
 
     data = json.dumps(data, cls=py_util.DecimalEncoder)
-    file_name = 'src/functions/create_demo_teacher/jakes_data_20190418.json'
+    file_name = 'src/functions/create_demo_teacher/data_20190418.json'
     with open(file_name, 'w') as f:
         f.write(data)
