@@ -3,7 +3,7 @@
 <br>Here is my data strature study pratice
 Continued to increase------------
 
-## Ducument of  scewing con-19
+## Ducument of  scewing covid-19
 
 When we use the requests to get data of lxml.
 
@@ -34,5 +34,11 @@ The today_data diction
   ````
 
 ## json file use pandas 
-
- 
+We use the open data /n
+filter merg colum we want 
+## sql learn 
+simple select a from table ....(other condition)
+## ML 
+stastic learning  and  linear regression with the model can't be open the //phd reseach field    
+## data time change 
+use some hash table to translate data
